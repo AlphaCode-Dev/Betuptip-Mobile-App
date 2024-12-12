@@ -18,11 +18,11 @@ import 'login_viewmodel.dart';
   FormTextField(name: 'loginemail'),
   FormTextField(name: 'enterpassord')
 ])
-class LoginView extends StackedView<LoginViewModel> with $LoginView{
+class LoginView extends StackedView<LoginViewModel> with $LoginView {
   const LoginView({Key? key}) : super(key: key);
 
   final bool _isChecked = false;
-  
+
   @override
   Widget builder(
     BuildContext context,
