@@ -1,4 +1,5 @@
 import 'package:betuptip/app/app.locator.dart';
+import 'package:betuptip/app/app.router.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -16,6 +17,6 @@ class RegisterViewModel extends BaseViewModel {
   }
 
   void locateLogin() {
-    //_navigationService.navigateToLoginView();
+    _navigationService.navigateToLoginView();
   }
 }
