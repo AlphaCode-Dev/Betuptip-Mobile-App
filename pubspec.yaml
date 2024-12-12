@@ -12,6 +12,7 @@ dependencies:
   stacked: ^3.4.0
   stacked_services: ^1.1.0
   flutter_screenutil: ^5.9.3
+  flutter_svg: ^1.0.3
   flutter_localization: ^0.2.2
   flutter_localizations:
     sdk: flutter

@@ -4,6 +4,14 @@ import 'package:betuptip/app/app.router.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 class StartupViewModel extends BaseViewModel {
+  bool _isChecked = false;
+
+  bool get isChecked => _isChecked;
+
+  void toggleChecked(bool value) {
+    _isChecked = value;
+    notifyListeners(); // Notify listeners to rebuild the UI
+  }
   final _navigationService = locator<NavigationService>();
 
   // Place anything here that needs to happen before we get into the application
@@ -13,6 +21,6 @@ class StartupViewModel extends BaseViewModel {
     // This is where you can make decisions on where your app should navigate when
     // you have custom startup logic
 
-    _navigationService.replaceWithHomeView();
+    _navigationService.replaceWithRegisterView();
   }
 }

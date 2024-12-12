@@ -49,6 +49,266 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Create an account`
+  String get create_account {
+    return Intl.message(
+      'Create an account',
+      name: 'create_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Kindly provide the required infomation to continue.`
+  String get create_account_sub {
+    return Intl.message(
+      'Kindly provide the required infomation to continue.',
+      name: 'create_account_sub',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First Name`
+  String get first_name {
+    return Intl.message(
+      'First Name',
+      name: 'first_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Name`
+  String get last_name {
+    return Intl.message(
+      'Last Name',
+      name: 'last_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phone Number`
+  String get phone_number {
+    return Intl.message(
+      'Phone Number',
+      name: 'phone_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get email_address {
+    return Intl.message(
+      'Email Address',
+      name: 'email_address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get confirm_password {
+    return Intl.message(
+      'Confirm Password',
+      name: 'confirm_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Show`
+  String get show {
+    return Intl.message(
+      'Show',
+      name: 'show',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In With Google`
+  String get sign_in_with_google {
+    return Intl.message(
+      'Sign In With Google',
+      name: 'sign_in_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I have read and agreed to the `
+  String get terms_of_service {
+    return Intl.message(
+      'I have read and agreed to the ',
+      name: 'terms_of_service',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `terms `
+  String get term {
+    return Intl.message(
+      'terms ',
+      name: 'term',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `and `
+  String get and {
+    return Intl.message(
+      'and ',
+      name: 'and',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `privacy policy`
+  String get privacy {
+    return Intl.message(
+      'privacy policy',
+      name: 'privacy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue`
+  String get Continue {
+    return Intl.message(
+      'Continue',
+      name: 'Continue',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account? `
+  String get have_an_account {
+    return Intl.message(
+      'Already have an account? ',
+      name: 'have_an_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message(
+      'Login',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms and Services`
+  String get terms_header {
+    return Intl.message(
+      'Terms and Services',
+      name: 'terms_header',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our ability to provide accurate forecasts. Our extensive track record is evidenced by past predictions and glowing reviews from numerous satisfied subscribers.\nFree subscribers receive a limited number of daily tips, including up to 10 high-percentage winning games. No need for a paid subscription to start capitalizing on our daily insights.\nPaid subscribers enjoy an elevated experience, gaining access to an even greater volume of meticulously analyzed tips. With our team of seasoned sports analysts, rest assured that losses to bookmakers need not be a concern any longer.`
+  String get terms_details {
+    return Intl.message(
+      'Our ability to provide accurate forecasts. Our extensive track record is evidenced by past predictions and glowing reviews from numerous satisfied subscribers.\nFree subscribers receive a limited number of daily tips, including up to 10 high-percentage winning games. No need for a paid subscription to start capitalizing on our daily insights.\nPaid subscribers enjoy an elevated experience, gaining access to an even greater volume of meticulously analyzed tips. With our team of seasoned sports analysts, rest assured that losses to bookmakers need not be a concern any longer.',
+      name: 'terms_details',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Welcome\nBack`
+  String get Welcome_Back {
+    return Intl.message(
+      'Welcome\nBack',
+      name: 'Welcome_Back',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign in to continue`
+  String get Welcome_sub {
+    return Intl.message(
+      'Sign in to continue',
+      name: 'Welcome_sub',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get login_email {
+    return Intl.message(
+      'Email Address',
+      name: 'login_email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get login_password {
+    return Intl.message(
+      'Password',
+      name: 'login_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign in`
+  String get sign_in {
+    return Intl.message(
+      'Sign in',
+      name: 'sign_in',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot your password?`
+  String get forgot_password {
+    return Intl.message(
+      'Forgot your password?',
+      name: 'forgot_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your registered email address below\nto receive password reset instructions`
+  String get forgot_password_sub {
+    return Intl.message(
+      'Enter your registered email address below\nto receive password reset instructions',
+      name: 'forgot_password_sub',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
