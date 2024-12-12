@@ -1,0 +1,7 @@
+{
+    "BASE_URL": "",
+    "ENVIRONMENT": "prod",
+    "DB_NAME": "betuptip_prod",
+    "TOKEN_KEY": "prod_token_key"
+}
+  

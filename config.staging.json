@@ -1,0 +1,7 @@
+{
+    "BASE_URL": "https://api.betuptip.com/v1",
+    "ENVIRONMENT": "staging",
+    "DB_NAME": "betuptip_staging",
+    "ACCESS_TOKEN_KEY": "staging_access_token_key",
+    "REFRESH_TOKEN_KEY": "staging_refresh_token_key"
+}
