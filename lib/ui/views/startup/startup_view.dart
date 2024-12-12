@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:stacked/stacked.dart';
 
-
 import 'startup_viewmodel.dart';
 
 class StartupView extends StackedView<StartupViewModel> {
@@ -16,14 +15,14 @@ class StartupView extends StackedView<StartupViewModel> {
     StartupViewModel viewModel,
     Widget? child,
   ) {
-    return  Scaffold(
-            backgroundColor: AppColors.kcpryBlack,
-            body: Center(
-              child: Image.asset(
-                AppAssets.onboardinglogoPng,
-              ),
-            ),
-          );
+    return Scaffold(
+      backgroundColor: AppColors.kcpryBlack,
+      body: Center(
+        child: Image.asset(
+          AppAssets.onboardinglogoPng,
+        ),
+      ),
+    );
   }
 
   @override

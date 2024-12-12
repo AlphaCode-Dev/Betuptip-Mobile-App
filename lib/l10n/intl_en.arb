@@ -1,1 +1,30 @@
-{}
+{
+    "@@locale": "en-US",
+    "create_account": "Create an account",  
+    "create_account_sub": "Kindly provide the required infomation to continue.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone_number": "Phone Number",
+    "email_address": "Email Address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "show": "Show",
+    "sign_in_with_google": "Sign In With Google",
+    "terms_of_service": "I have read and agreed to the ",
+    "term": "terms ",
+    "and": "and ",
+    "privacy": "privacy policy",
+    "Continue": "Continue",
+    "have_an_account":"Already have an account? ",
+    "login":"Login",
+    "terms_header": "Terms and Services",
+    "terms_details": "Our ability to provide accurate forecasts. Our extensive track record is evidenced by past predictions and glowing reviews from numerous satisfied subscribers.\nFree subscribers receive a limited number of daily tips, including up to 10 high-percentage winning games. No need for a paid subscription to start capitalizing on our daily insights.\nPaid subscribers enjoy an elevated experience, gaining access to an even greater volume of meticulously analyzed tips. With our team of seasoned sports analysts, rest assured that losses to bookmakers need not be a concern any longer.",
+    "Welcome_Back": "Welcome\nBack",
+    "Welcome_sub": "Sign in to continue",
+    "login_email": "Email Address",
+    "login_password": "Password",
+    "sign_in": "Sign in",
+    "forgot_password": "Forgot your password?",
+    "forgot_password_sub": "Enter your registered email address below\nto receive password reset instructions"
+  }
+  
