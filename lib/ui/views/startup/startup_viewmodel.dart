@@ -12,6 +12,7 @@ class StartupViewModel extends BaseViewModel {
     _isChecked = value;
     notifyListeners(); // Notify listeners to rebuild the UI
   }
+
   final _navigationService = locator<NavigationService>();
 
   // Place anything here that needs to happen before we get into the application

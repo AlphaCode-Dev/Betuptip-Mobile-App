@@ -21,7 +21,7 @@ import 'register_viewmodel.dart';
   FormTextField(name: 'phone'),
   FormTextField(name: 'password'),
 ])
-class RegisterView extends StackedView<RegisterViewModel> with $RegisterView{
+class RegisterView extends StackedView<RegisterViewModel> with $RegisterView {
   const RegisterView({Key? key}) : super(key: key);
 
   final bool _isChecked = false;
@@ -56,7 +56,7 @@ class RegisterView extends StackedView<RegisterViewModel> with $RegisterView{
                 Text(
                   S.of(context).create_account,
                   style: theme.textTheme.headlineLarge?.copyWith(
-                    color:  AppColors.kcpryBlack,
+                    color: AppColors.kcpryBlack,
                   ),
                 ),
                 SizedBox(
