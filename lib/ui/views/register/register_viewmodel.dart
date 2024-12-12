@@ -9,7 +9,7 @@ class RegisterViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
   void locateTermsandpolicy() {
-    // _navigationService.navigateToTermsAndPolicyView();
+     _navigationService.navigateToTermsView();
   }
 
   void navigateBack() {
