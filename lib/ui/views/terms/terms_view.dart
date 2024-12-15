@@ -16,7 +16,7 @@ class TermsView extends StackedView<TermsViewModel> {
     TermsViewModel viewModel,
     Widget? child,
   ) {
-     ThemeData theme = Theme.of(context);
+    ThemeData theme = Theme.of(context);
     // Palette? palette = theme.extension<Palette>();
     //AppTypography? appTypography = theme.extension<AppTypography>();
     return Scaffold(

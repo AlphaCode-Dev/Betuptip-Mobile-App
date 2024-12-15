@@ -6,15 +6,16 @@ import 'package:stacked_services/stacked_services.dart';
 import 'package:betuptip/ui/views/register/register_view.dart';
 import 'package:betuptip/ui/views/login/login_view.dart';
 import 'package:betuptip/ui/views/terms/terms_view.dart';
+import 'package:betuptip/ui/views/home/home_view.dart';
 // @stacked-import
 
 @StackedApp(
   routes: [
-
     MaterialRoute(page: StartupView),
     MaterialRoute(page: RegisterView),
     MaterialRoute(page: LoginView),
     MaterialRoute(page: TermsView),
+    MaterialRoute(page: HomeView),
 // @stacked-route
   ],
   dependencies: [
