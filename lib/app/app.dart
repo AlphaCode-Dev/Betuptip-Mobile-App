@@ -1,6 +1,5 @@
 import 'package:betuptip/ui/bottom_sheets/notice/notice_sheet.dart';
 import 'package:betuptip/ui/dialogs/info_alert/info_alert_dialog.dart';
-import 'package:betuptip/ui/views/home/home_view.dart';
 import 'package:betuptip/ui/views/startup/startup_view.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -11,7 +10,7 @@ import 'package:betuptip/ui/views/terms/terms_view.dart';
 
 @StackedApp(
   routes: [
-    MaterialRoute(page: HomeView),
+
     MaterialRoute(page: StartupView),
     MaterialRoute(page: RegisterView),
     MaterialRoute(page: LoginView),
