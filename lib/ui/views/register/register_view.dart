@@ -257,6 +257,9 @@ class RegisterView extends StackedView<RegisterViewModel> with $RegisterView {
                       PrimaryButton(
                         text: S.of(context).Continue,
                         textColor: AppColors.kcVeryWhiteSmoke,
+                        onTap: () {
+                          viewModel.locateHome();
+                        },
                       ),
                       SizedBox(
                         height: 20.h,
