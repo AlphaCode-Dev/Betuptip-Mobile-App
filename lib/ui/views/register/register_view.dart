@@ -137,7 +137,7 @@ class RegisterView extends StackedView<RegisterViewModel> with $RegisterView {
                         height: 10.h,
                       ),
                       BetuptipTextField(
-                        controller: phoneController,
+                        controller: passwordController,
                         hintText: S.of(context).email_address,
                         hintStyle: const TextStyle(
                           color: AppColors.kcLightGrey,
@@ -153,7 +153,7 @@ class RegisterView extends StackedView<RegisterViewModel> with $RegisterView {
                       ),
                       SizedBox(height: 10.w),
                       BetuptipTextField(
-                        controller: phoneController,
+                        controller: passwordController,
                         hintText: S.of(context).password,
                         hintStyle: const TextStyle(
                           color: AppColors.kcLightGrey,

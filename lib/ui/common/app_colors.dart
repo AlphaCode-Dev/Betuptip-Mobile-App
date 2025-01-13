@@ -22,4 +22,6 @@ class AppColors {
   static const Color kcBackgroundColor = kcDarkGreyColor;
   static const Color kcMainBlue = Color(0xFF0000FF);
   static const Color kcButtonBlue = Color(0xFF0000B8);
+  static const Color kcMainBlk = Color(0xFF1C1B1F);
+  static const Color kcNotifiPink = Color(0xFFd90368);
 }
