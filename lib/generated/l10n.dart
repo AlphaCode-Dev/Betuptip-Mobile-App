@@ -309,6 +309,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Good Morning`
+  String get profile_greet {
+    return Intl.message(
+      'Good Morning',
+      name: 'profile_greet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Harry Maguire (c)`
+  String get profile_name {
+    return Intl.message(
+      'Harry Maguire (c)',
+      name: 'profile_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Football News`
+  String get football_news {
+    return Intl.message(
+      'Football News',
+      name: 'football_news',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `See all`
+  String get see_all {
+    return Intl.message(
+      'See all',
+      name: 'see_all',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

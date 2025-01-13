@@ -25,6 +25,10 @@
     "login_password": "Password",
     "sign_in": "Sign in",
     "forgot_password": "Forgot your password?",
-    "forgot_password_sub": "Enter your registered email address below\nto receive password reset instructions"
+    "forgot_password_sub": "Enter your registered email address below\nto receive password reset instructions",
+    "profile_greet": "Good Morning",
+    "profile_name": "Harry Maguire (c)",
+    "football_news": "Football News",
+    "see_all": "See all"
   }
   

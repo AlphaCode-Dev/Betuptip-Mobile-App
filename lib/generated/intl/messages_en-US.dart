@@ -35,6 +35,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Kindly provide the required infomation to continue."),
         "email_address": MessageLookupByLibrary.simpleMessage("Email Address"),
         "first_name": MessageLookupByLibrary.simpleMessage("First Name"),
+        "football_news": MessageLookupByLibrary.simpleMessage("Football News"),
         "forgot_password":
             MessageLookupByLibrary.simpleMessage("Forgot your password?"),
         "forgot_password_sub": MessageLookupByLibrary.simpleMessage(
@@ -48,6 +49,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone Number"),
         "privacy": MessageLookupByLibrary.simpleMessage("privacy policy"),
+        "profile_greet": MessageLookupByLibrary.simpleMessage("Good Morning"),
+        "profile_name":
+            MessageLookupByLibrary.simpleMessage("Harry Maguire (c)"),
+        "see_all": MessageLookupByLibrary.simpleMessage("See all"),
         "show": MessageLookupByLibrary.simpleMessage("Show"),
         "sign_in": MessageLookupByLibrary.simpleMessage("Sign in"),
         "sign_in_with_google":
