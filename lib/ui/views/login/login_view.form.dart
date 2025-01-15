@@ -44,7 +44,7 @@ mixin $LoginView {
     _LoginViewTextEditingControllers[key] =
         TextEditingController(text: initialValue);
     return _LoginViewTextEditingControllers[key]!;
-  } 
+  }
 
   FocusNode _getFormFocusNode(String key) {
     if (_LoginViewFocusNodes.containsKey(key)) {

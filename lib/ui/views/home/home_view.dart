@@ -138,7 +138,7 @@ class HomeView extends StackedView<HomeViewModel> {
             TabItem(icon: Icons.newspaper_sharp, title: 'News'),
             TabItem(icon: Icons.person, title: 'Profile'),
           ],
-          onTap: (int index){
+          onTap: (int index) {
             viewModel.updateSelectedIndex(index);
           },
         ));
