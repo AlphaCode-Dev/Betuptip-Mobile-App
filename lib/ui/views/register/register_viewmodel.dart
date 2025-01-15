@@ -9,7 +9,7 @@ class RegisterViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
   void locateTermsandpolicy() {
-     _navigationService.navigateToTermsView();
+    _navigationService.navigateToTermsView();
   }
 
   void navigateBack() {
@@ -20,8 +20,7 @@ class RegisterViewModel extends BaseViewModel {
     _navigationService.navigateToLoginView();
   }
 
-   void locateHome() {
+  void locateHome() {
     _navigationService.navigateToHomeView();
-    
   }
 }
