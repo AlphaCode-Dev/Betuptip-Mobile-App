@@ -8,6 +8,7 @@ import 'package:betuptip/ui/views/login/login_view.dart';
 import 'package:betuptip/ui/views/terms/terms_view.dart';
 import 'package:betuptip/ui/views/home/home_view.dart';
 import 'package:betuptip/ui/views/predictions/predictions_view.dart';
+import 'package:betuptip/ui/views/newspage/newspage_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -18,6 +19,7 @@ import 'package:betuptip/ui/views/predictions/predictions_view.dart';
     MaterialRoute(page: TermsView),
     MaterialRoute(page: HomeView),
     MaterialRoute(page: PredictionsView),
+    MaterialRoute(page: NewspageView),
 // @stacked-route
   ],
   dependencies: [
