@@ -2,7 +2,6 @@ import 'package:betuptip/generated/l10n.dart';
 import 'package:betuptip/ui/common/app_asset.dart';
 import 'package:betuptip/ui/common/app_colors.dart';
 import 'package:betuptip/ui/extenstions/app_typography.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stacked/stacked.dart';
