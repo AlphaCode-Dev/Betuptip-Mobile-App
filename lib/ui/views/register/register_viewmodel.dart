@@ -21,6 +21,6 @@ class RegisterViewModel extends BaseViewModel {
   }
 
   void locateHome() {
-    _navigationService.navigateToHomeView();
+    _navigationService.navigateToBottomNavbarView();
   }
 }
