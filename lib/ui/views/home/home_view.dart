@@ -126,22 +126,7 @@ class HomeView extends StackedView<HomeViewModel> {
             ),
           ),
         ),
-        bottomNavigationBar: ConvexAppBar(
-          backgroundColor: AppColors.kcPrimaryOrange,
-          color: AppColors.kcVeryWhiteSmoke,
-          style: TabStyle.react,
-          curveSize: 70,
-          initialActiveIndex: 0,
-          items: const [
-            TabItem(icon: Icons.home, title: 'Home'),
-            TabItem(icon: Icons.scoreboard, title: 'Odds'),
-            TabItem(icon: Icons.newspaper_sharp, title: 'News'),
-            TabItem(icon: Icons.person, title: 'Profile'),
-          ],
-          onTap: (int index) {
-            viewModel.updateSelectedIndex(index);
-          },
-        ));
+        );
   }
 
   @override
