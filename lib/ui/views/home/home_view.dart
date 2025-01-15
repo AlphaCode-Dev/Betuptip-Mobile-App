@@ -21,6 +21,7 @@ class HomeView extends StackedView<HomeViewModel> {
     AppTypography? appTypography = theme.extension<AppTypography>();
     return Scaffold(
         backgroundColor: AppColors.kcMainBlk,
+        
         body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
@@ -131,7 +132,7 @@ class HomeView extends StackedView<HomeViewModel> {
           color: AppColors.kcVeryWhiteSmoke,
           style: TabStyle.react,
           curveSize: 70,
-          initialActiveIndex: 0,
+          initialActiveIndex: viewModel.selectedIndex,
           items: const [
             TabItem(icon: Icons.home, title: 'Home'),
             TabItem(icon: Icons.scoreboard, title: 'Odds'),
